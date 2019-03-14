@@ -1,0 +1,400 @@
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 12px;
+  font-family: "å®‹ä½“", Arial, "Segoe UI", sans-serif;
+  /* vertical-align: baseline; */
+  background: transparent;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  font-size: 12px;
+  font-family: 宋体, Arial, "Segoe UI", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  outline: 0px;
+  background: transparent;
+}
+.ui-bg-rank-change{
+   overflow-y:scroll;
+
+}
+
+
+
+/* content */
+.ui-mt40 {
+  margin-top: 40px;
+}
+.ui-mb40 {
+  margin-bottom: 40px;
+}
+.ui-wms {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* zuo侧边 */
+.ret-title {
+  padding-left: 12px;
+  margin: 20px 0 22px 15px;
+  font: normal 24px/26px "微软雅黑";
+  border-left: 5px solid #ff9a6a;
+}
+.ret-check-all {
+  width: 250px;
+  padding-bottom: 10px;
+  margin: 0 0 16px 26px;
+  border-bottom: 1px dashed #ccc;
+}
+.clearfixs {
+  zoom: 1;
+  height: 33px;
+}
+.ret-tags-wr {
+  border: 1px solid #dadada;
+  background-color: #fff;
+}
+.ret-check-all .ret-check-ft {
+  float: left;
+  height: 22px;
+  line-height: 22px;
+  margin-right: 10px;
+}
+.ret-tags-type {
+  width: 250px;
+  margin: 0 0 16px 26px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+  overflow: hidden;
+}
+.ret-tags-sx {
+  background-position: 2px -88px;
+}
+.ret-tags-title {
+  height: 20px;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font: normal 16px/20px "微软雅黑";
+  color: #333;
+}
+.ret-tags-title, .ret-tags-open, .ret-tags-close, .ret-search-type a {
+  /* background-image: url(../images/page_comic_all.png); */
+  background-repeat: no-repeat;
+}
+.ret-tags-items {
+  width: 260px;
+}
+.ret-tags-items .active {
+  color: #fff;
+  background-color: #ff9a6a;
+}
+.ret-tags-items a {
+  float: left;
+  padding: 0 5px;
+  margin-right: 9px;
+  margin-bottom: 4px;
+  line-height: 22px;
+  color: #666;
+}
+.ret-side-wr{
+  width:300px;
+}
+
+
+/* 右侧边 */
+.ret-main-wr {
+  width: 870px;
+  margin-left: 30px;
+}
+.ret-main {
+  width: 100%;
+  min-height: 788px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  overflow: hidden;
+}
+.ret-search-head {
+  height: 40px;
+  margin: 1px 1px 0 1px;
+  background-color: #f3f3f3;
+}
+.ret-head-page {
+  height: 16px;
+  margin: 10px 30px 0 0;
+}
+.ui-right {
+  float: right;
+}
+.ret-search-type li {
+  float: left;
+}
+.ret-head-page .current {
+  color: #fff;
+  background-color: #ff9a6a;
+}
+.ret-head-page a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  line-height: 16px;
+  padding: 2px 5px;
+  color: #666;
+  margin: 0 3px;
+}
+.ret-result-num {
+  margin-right: 30px;
+  line-height: 40px;
+}
+.ret-result-num em {
+  color: #333;
+  font-weight: bold;
+}
+.ui-left {
+  float: left;
+}
+.ret-search-type .active a {
+  color: #ff9a6a;
+}
+.ret-search-type .active {
+  background-color: #fff;
+}
+.ret-search-type li {
+  float: left;
+}
+.ret-search-type .active .ret-search-time, .ret-search-type .active .ret-search-rank {
+  background-position: 13px -186px;
+}
+.ret-search-type a {
+  display: block;
+  width: 87px;
+  height: 39px;
+  padding-left: 20px;
+  line-height: 39px;
+  text-align: center;
+  color: #666;
+  border-right: 1px solid #fff;
+}
+
+/* 这是list */
+.ret-search-list {
+  width: 900px;
+}
+
+.ret-search-item {
+  float: left;
+  width: 405px;
+  height: 229px;
+  padding: 24px 20px 24px 24px;
+  border-right: 1px solid #e8e7e6;
+  border-bottom: 1px solid #e8e7e6;
+  overflow: hidden;
+}
+.ret-works-cover {
+  float: left;
+}
+
+.ret-works-cover {
+  width: 135px;
+  overflow: hidden;
+}
+.mod-cover-effect {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.mod-cover-list-thumb {
+  width: 133px;
+  height: 177px;
+  overflow: hidden;
+  border: 1px solid #bebebe;
+  background-color: #fff;
+}
+.mod-cover-effect img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mod-cover-list-thumb img {
+  width: 133px;
+  display: block;
+}
+.mod-layer-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.1s ease;
+  -moz-transition: opacity 0.1s ease;
+  -o-transition: opacity 0.1s ease;
+  transition: opacity 0.1s ease;
+}
+.mod-cover-list-updata {
+  position: relative;
+}
+.mod-cover-list-mask {
+  position: relative;
+  left: 1px;
+  *position: static;
+  display: block;
+  width: 100%;
+  height: 22px;
+  margin-top: -22px;
+  background-color: rgba(0,0,0,0.6)!important;
+  background-color: #000;
+  filter: alpha(opacity = 60);
+  color: #fff;
+  text-align: right;
+}
+.mod-cover-list-text {
+  position: relative;
+  line-height: 22px;
+  padding-right: 8px;
+}
+
+.ret-works-info {
+  width: 240px;
+  margin-left: 14px;
+}
+.ret-works-info, .ret-works-cover {
+  float: left;
+}
+.ret-works-title {
+  width: 264px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.ret-works-title a {
+  float: left;
+  margin-right: 8px;
+  color: rgb(51, 51, 51);
+  font: 18px/20px 微软雅黑;
+}
+.ret-works-title i {
+  float: left;
+  margin-right: 7px;
+}
+.ui-icon-sign {
+  background-position: -135px -272px;
+}
+.ui-icon-sign, .ui-icon-famous, .ui-icon-chot, .ui-icon-bout {
+  width: 31px;
+  height: 19px;
+}
+.ret-works-author {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ret-works-tags {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.ret-works-tags a {
+  margin-right: 10px;
+  color: #666;
+}
+.ret-works-tags a, .ret-works-tags span {
+  float: left;
+}
+.ret-works-decs {
+  height: 54px;
+  margin-top: 5px;
+  color: #999;
+  overflow: hidden;
+}
+.ret-works-view {
+  float: left;
+  display: block;
+  width: 90px;
+  height: 36px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  font: 16px/36px 微软雅黑;
+  border-color: rgb(224, 207, 177);
+}
+.ui-btn-pink {
+  box-shadow: 0 0 1px rgba(255,255,255,0.6) inset;
+  border: 1px solid #e0cfb1;
+  color: #b6724d;
+  background: #fffbf6;
+}
+
+.ret-works-view {
+  float: left;
+  display: block;
+  width: 90px;
+  height: 36px;
+  margin-top: 10px;
+  border-radius: 3px;
+  font: normal 16px/36px "å¾®è½¯é›…é»‘";
+  margin-right: 10px;
+  border-color: #e0cfb1;
+}
+.ui-btn-pink {
+  text-align: center;
+}
+
+
+.ret-page-wr {
+  float: right;
+  margin-right: 30px;
+}
+.mod-page {
+  overflow: hidden;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.ui-bg-rank-change .mod-page a:hover, .ui-bg-rank-change .mod-page a.current, .ui-bg-rank-change .ret-title {
+  border-color: #d51804;
+}
+
+.mod-page a {
+  font-size: 14px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 0 2px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+.mod-page {
+  overflow: hidden;
+  margin: 20px 0;
+  text-align: center;
+}
+.mod-page a {
+  font-size: 14px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin: 0 2px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+

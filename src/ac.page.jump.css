@@ -1,0 +1,1411 @@
+body {
+	min-width: 1200px;
+	/* background: url(../images/ac_body_bg.png) repeat; */
+}
+h3 {
+	font: 24px/32px "Microsoft YaHei";
+	color: #333;
+}
+.wrap a:hover {
+	color: #cd2b00 !important;
+}
+.ui-down-arrow {
+	position: absolute;
+	border-width: 5px;
+	border-color: #fff transparent transparent transparent;
+	border-style: solid dashed dashed dashed;
+	border-bottom: none;
+}
+.ui-japan-brn {
+	border-right: none !important;
+}
+.ui-japan-bbn {
+	border-bottom: none !important;
+}
+.ui-japan-red {
+	color: #cd2b00 !important;
+}
+.ui-japan-ml20 {
+	margin-left: 20px !important;
+}
+.ui-japan-mr25 {
+	margin-right: 25px !important;
+}
+.ui-japan-mrn {
+	margin-right: 0 !important;
+}
+.ui-japan-mln {
+	margin-left: 0 !important;
+}
+
+.japan-new .tit,
+.new-border-left,
+.japan-new-slider .bx-prev,
+.japan-new-slider .bx-next{
+	 background:url(../public/japan_all.png) no-repeat; 
+}
+
+.arrow{
+	 background:url(../public/japan_all.png) no-repeat; 
+	width:31px;
+	height:31px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.japan-rise-leftbtn{
+	background-position:-77px -165px;
+	margin:5px 0 0 2px;
+}
+.japan-rise-leftbtn:hover{
+	background-position:-77px -134px;
+}
+.japan-rise-rightbtn{
+	background-position:-45px -165px;
+	margin:5px 2px 0 0;
+}
+.japan-rise-rightbtn:hover{
+	background-position:-45px -134px;
+}
+
+.japan-works{
+	margin-top:32px;
+}
+.japan-banner-slider .bx-wrapper{
+	position:relative;
+	z-index:1;
+}
+.japan-banner{
+	width:773px;
+	height:297px;
+	border:6px solid #333;
+	position:relative;
+	z-index:1;
+}
+.banner-slider-list{
+	height:297px;
+	display:block;
+	overflow:hidden;
+}
+.japan-rise-tab{
+	height:49px;
+	position:absolute;
+	bottom:0;
+	right:65px;
+	padding:9px 0 0 0;
+	z-index:2;
+}
+.japan-rise-tab a{
+	float:left;
+}
+.japan-rise-tab .in-rise-tab-num{
+	width:65px;
+	height:40px;
+	display:block;
+	overflow:hidden;
+	margin:0 5px;
+	border:1px solid #636363;
+}
+.japan-rise-tab .in-rise-tab-num.current{
+	border-color:#fff;
+}
+.banner-slider-text{
+	 background:url(../public/bg_blank.png) repeat; 
+	height:58px;
+	padding-left:7px;
+	position:relative;
+	margin-top:-58px;
+	width:100%;
+}
+.banner-slider-a{
+	color:#fff;
+	font-family:"Microsoft YaHei";
+	font-size:20px;
+	line-height:58px;
+	position:relative;
+}
+.banner-img{
+	height:297px;
+	display:block;
+}
+.banner-border-right{
+	 background:url(../public/japan_all.png) no-repeat -310px -188px; 
+	width:77px;
+	height:310px;
+	position:absolute;
+	top:-6px;
+	right:-7px;
+	z-index:5;
+}
+
+.japan-new{
+	width:394px;
+	height:297px;
+	border:6px solid #333;
+	margin-top:-309px;
+	position:relative;
+	z-index:2;
+}
+.japan-new .tit{
+	background-position:-47px -632px;
+	width:406px;
+	height:58px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	margin-left:-8px;
+}
+.japan-new-list{
+	width:342px;
+	height:172px;
+	padding-left:11px;
+	display:block;
+	overflow: hidden;
+	position:relative;
+}
+.japan-new-list li{
+	zoom:1;
+}
+.japan-new-list li:after{
+	content:"."; display:block; height:0; clear:both; visibility:hidden;
+}
+.japan-new-mod{
+	float:left;
+	width:100px;
+	padding:0 7px;
+	overflow:hidden;
+}
+.japan-new-mod a{
+	color:#333;
+}
+.japan-new-mod .new-img{
+	width:100px;
+	height:131px;
+	display:block;
+	overflow:hidden;
+	position:relative;
+}
+.new-name{
+	padding:3px 0 0 0;
+	display:block;
+}
+.new-name a{
+	font-weight:bold;
+}
+.new-text{
+	background:#f3f3f3;
+	border-left:1px solid #ebebeb;
+	border-right:1px solid #ebebeb;
+	border-bottom:2px solid #0b0b0b;
+	padding:0 1px 0 5px;
+}
+.japan-new-slider{
+	padding-top:36px;
+}
+.japan-new-slider .bx-pager{
+	display:none;
+}
+.new-border-left{
+	background-position:-378px -717px;
+	width:75px;
+	height:309px;
+	position:absolute;
+	top:-6px;
+	left:-70px;
+}
+
+.japan-new-slider .bx-prev{
+	background-position:-45px -725px;
+	width:47px;
+	height:66px;
+	top:39px;
+	left:-41px;
+	margin-top:0;
+}
+.japan-new-slider .bx-prev:hover{
+	background-position:-104px -725px;
+	background-color:transparent;
+}
+.japan-new-slider .bx-next{
+	background-position:-171px -725px;
+	width:36px;
+	height:66px;
+	top:39px;
+	margin:0;
+}
+.japan-new-slider .bx-next:hover{
+	background-position:-220px -725px;
+	background-color:transparent;
+}
+
+/* 漫画模块 */
+.japn-tab-wrap{
+	min-height:67px;
+	margin-top: 30px;
+}
+.Japan-tab {
+	width: 1198px;
+	height:65px;
+	border: 1px solid #e4e4e4;
+	position:relative;
+	display:block;
+	overflow:hidden;
+}
+.japan-fixed{
+	position:fixed;
+	top:0;
+	left:50%;
+	margin-left:-600px;
+	margin-top:0;
+	z-index:98;
+}
+.Japan-tab a {
+	display:block;
+	float:left;
+	position:relative;
+	width: 599px;
+	height: 60px;
+	border-top: 5px solid #333;
+	text-align: center;
+	background: #f5f5f5;
+}
+.Japan-tab a:hover{
+	background:#fff;
+}
+.Japan-tab a.active {
+	border-top: 5px solid #cd2b00;
+	background-color:#fff;
+}
+.Japan-tab .active .japan-ico-top{
+	display:block;
+}
+.Japan-tab .japan-ico-top{
+	/* background:url(../images/japan_all.png) no-repeat -363px -0; */
+	width:18px;
+	height:9px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-9px;
+	display:none;
+}
+.Japan-tab a .Japan-tab-txt {
+	display: block;
+	width: 598px;
+	height: 60px;
+	font: bold 26px/60px "Microsoft YaHei";
+	color: #333;
+	border-right: 1px solid #e4e4e4;
+}
+.Japan-tab a .Japan-tab-rw {
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 160px;
+	width: 295px;
+	height: 65px;
+	/* background: url(../images/japan_all.png) no-repeat -45px 0; */
+	-webkit-transition: top 0.3s ease;
+    -moz-transition: top 0.3s ease;
+    transition: top 0.3s ease;
+}
+.Japan-tab a span.Japan-tab-rw2 {
+	left: 167px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -67px; */
+}
+.Japan-tab .active .japan-people{
+	top:-5px;
+}
+/*正版漫画*/
+.Japan-comic {
+	padding-top: 12px;
+}
+.Japan-bx-head h2 {
+	float: left;
+	width: 120px;
+	border-bottom: 7px solid #333;
+	font: bold 30px/58px "Microsoft YaHei";
+	color: #333;
+}
+.Japan-bx-head .Japan-head-content {
+	float:left;
+	width: 1080px;
+	height: 65px;
+	 background: url(../public/all10.png) repeat-x 0 58px; 
+}
+.Japan-bx-head .Japan-head-content h3 {
+	float: left;
+	width: 320px;
+	height: 20px;
+	margin-top: 23px;
+	margin-left: 20px;
+	line-height: 60px;
+	color: #333;
+	 background: url(../public/japan_all.png) no-repeat -45px -582px; 
+}
+.Japan-bx-head .Japan-head-comics {
+	float: right;
+	line-height: 60px;
+	padding-top:12px;
+}
+.Japan-bx-head .Japan-head-comics a {
+	width: 94px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+}
+.Japan-bx-head .Japan-head-comics a.JUMP {
+	 background: url(../public/japan_all.png) no-repeat -45px -411px; 
+}
+.Japan-bx-head .Japan-head-comics a.SQ {
+	width:86px;
+	 background: url(../public/japan_all.png) no-repeat -45px -447px; 
+}
+.Japan-bx-head .Japan-head-comics a.MAGALETO {
+	width: 80px;
+	 background: url(../public/japan_all.png) no-repeat -45px -483px; 
+}
+.Japan-bx-head .Japan-head-comics a.logo-lt{
+	width:82px;
+	 background:url(../public/japan_all.png) no-repeat -174px -407px; 
+}
+/*看漫画*/
+.Japan-comic .Japan-comic-box {
+	height: 73px;
+	margin-top: 30px;
+	border: 1px solid #333;
+}
+.Japan-comic .Japan-comic-box i {
+	position: absolute;
+	top: 32px;
+	right: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-right: 6px solid #404040;
+}
+.Japan-comic .Japan-comic-box h2 {
+	float: left;
+	position: relative;
+	width: 120px;
+	font: bold 26px/73px "Microsoft YaHei";
+	text-align: center;
+	color: #fff;
+	background: #cd2b00;
+}
+.Japan-comic .Japan-comic-box ul {
+	float: left;
+	width: 1078px;
+	height: 68px;
+	padding-top: 5px;
+	background: #404040;
+}
+.Japan-comic-box ul li {
+	line-height: 30px;
+}
+.Japan-comic-box ul li strong {
+	padding-left:1em;
+	font-size: 14px;
+	color: #56b905;
+}
+.Japan-comic-box ul li a{
+	margin-left:10px;
+	color: #fff;
+}
+.Japan-comic-box ul li span{
+	margin-left:10px;
+	color:#999;
+}
+.Japan-comic-wrap {
+	margin-top: 25px;
+}
+/*漫画列表*/
+.Japan-comic-wrap .Japan-comic-list {
+	float: left;
+	width: 734px;
+	height:1028px;
+	overflow:hidden;
+}
+.Japan-list-tab {
+	float: left;
+	margin-left: 20px;
+}
+.Japan-list-tab li {
+	float: left;
+	line-height: 32px;
+}
+.Japan-list-tab li.active {
+	margin-left: -1px;
+	background: #333;
+}
+.Japan-list-tab li.active a:hover{
+	color:#fff !important;
+}
+.Japan-list-tab li a {
+	padding: 0 18px;
+	border-right: 1px solid #333;
+	font-size: 14px;
+	color: #333;
+}
+.Japan-list-tab li.active a {
+	padding: 0 17px;
+	border-left: none;
+	font-weight: bold;
+	color: #fff;
+}
+.Japan-info-head .Japan-list-tab li.active a{
+	padding:0 17px 0 16px;
+}
+.Japan-info-head .Japan-list-tab li.active.comic-list-all a{
+	padding:0 17px 0 17px;
+}
+
+.Japan-list-tab li.comic-list-all.active {
+	margin-left: 0;
+}
+.Japan-page-tab{
+	float: right;
+	font-size: 20px;
+	line-height: 32px;
+	color: #333;
+	position:relative;
+	padding:0 18px 0 17px;
+	*padding:0 18px 0 6px;
+}
+.japan-arrow-left{
+	position:absolute;
+	top:1px;
+	left:0;
+}
+.japan-arrow-right{
+	position:absolute;
+	top:1px;
+	right:0;
+}
+.Japan-page-mt{
+	margin-top:-32px;
+}
+.Japan-comment-mod  .bx-wrapper{
+	min-height:1364px;
+}
+.Japan-comic-list .Japan-page-wrap {
+	height: 47px;
+	overflow: hidden;
+}
+
+.Japan-page-tab a {
+	display: block;
+	float: left;
+	font-size: 26px;
+	text-align: right;
+	color: #333;
+}
+.Japan-page-tab span {
+	font: 16px/32px "arial";
+	text-indent: 11px;
+}
+.Japan-page-tab .ft-length{
+	margin-left:1px;
+}
+.Japan-page-tab .ft-current{
+	margin-right:1px;
+}
+
+.japan-list-slider{
+	width:760px;
+	height:962px;
+	display:block;
+	overflow:hidden;
+}
+.Japan-comic-content{
+	width:760px;
+	height:948px;
+	zoom:1;
+	margin:14px 0 0 -14px;
+}
+.Japan-comic-content:after{
+	content:"."; display:block; height:0; clear:both; visibility:hidden;
+}
+.Japan-comic-list ul.Japan-comic-content li.comic-content-item {
+	float:left;
+	width: 352px;
+	height: 205px;
+	margin-top: 30px;
+	border-bottom: 2px solid #373737;
+	background: #fff;
+	margin:15px 14px;
+}
+.Japan-comic-list ul.Japan-comic-content li.null{
+	height:207px;
+	border:0 none;
+}
+.comic-text{
+	line-height:18px;
+	position:relative;
+}
+.Japan-comic-content a.Japan-comic-title {
+	display: block;
+	position: relative;
+	width: 352px;
+	height: 157px;
+	background: #000;
+}
+/*.Japan-comic-content a.Japan-comic-title:hover img,
+.japan-img:hover img{
+	filter:alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-ms-opacity: 0.8;
+	opacity: 0.8;
+}*/
+.Japan-comic-content a.Japan-comic-title sup {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 55px;
+	height: 55px;
+	z-index: 10;
+}
+.comic-text .Japan-comic-mask {
+	width:332px;
+	height:30px;
+	padding: 0 10px;
+	font-weight: bold;
+	line-height: 30px;
+	background: #404040;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.Japan-comic-content .Japan-comic-mask .japan-comic-a{
+	float: left;
+	font-size: 14px;
+	color: #fff;
+}
+.Japan-comic-content .Japan-comic-mask .japan-comic-new{
+	float: right;
+	color: #ee3200;
+}
+.Japan-comic-content .Japan-comic-mask .japan-comic-new span{
+	color:#fff;
+}
+.japan-comic-new span{
+	color:#fff;
+}
+.Japan-comic-content a.Japan-comic-title .Japan-comic-mask p span {
+	color: #fff;
+}
+.comic-content-item .Japan-comic-detail {
+	position: relative;
+}
+.Japan-comic-detail>a {
+	padding-left: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+}
+.Japan-comic-detail>img.game {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 5px 5px 0 0;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	background: #404040;
+}
+.Japan-comic-detail>p {
+	padding-left: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.Japan-comic-detail .Japan-comic-comment {
+	position: relative;
+}
+.Japan-comic-detail .Japan-comic-comment p {
+	position: absolute;
+	top: -28px;
+	left: 10px;
+	padding: 5px;
+	border-radius: 3px;
+	background: #fff;
+	filter: progid:DXImageTransform.Microsoft.Shadow( color='#928F8F', Direction=200, Strength=5 );
+	-moz-box-shadow: 0px 2px 10px #928F8F;
+	-webkit-box-shadow: 0px 2px 10px #928F8F;
+	box-shadow: 0px 2px 10px #928F8F;
+}
+.Japan-comic-detail .Japan-comic-comment p.Japan-pop-comment span {
+	display: block;
+	height: 54px;
+	overflow: hidden;
+}
+.Japan-comic-detail .Japan-comic-comment p.Japan-pop-comment {
+	top: -64px;
+	left: 60px;
+	width: 96px;
+	height: 54px;
+	line-height: 19px;
+	display:none;
+}
+.Japan-comic-detail .Japan-comic-comment p.Japan-pop-comment i {
+	top: 64px;
+	left: 43px;
+}
+.Japan-comic-detail .Japan-comic-comment p i {
+	top: 28px;
+	left: 18px;
+}
+.Japan-comic-detail .Japan-comic-comment a {
+	display: block;
+	float: left;
+	height: 26px;
+	margin-left: 13px;
+	line-height: 26px;
+	text-indent: 15px;
+	color: #666;
+}
+.Japan-comic-detail .Japan-comic-comment a.read {
+	/* background: url(../images/japan_all.png) no-repeat -363px -122px; */
+}
+.Japan-comic-detail .Japan-comic-comment a.comment {
+	margin-left: 20px;
+	/* background: url(../images/japan_all.png) no-repeat -363px -148px; */
+}
+.comic-content-item .Japan-comic-detail ul {
+	padding-left: 5px;
+}
+.Japan-comic-detail ul li {
+	float: left;
+	margin: 0 5px;
+}
+.Japan-comic-detail ul a {
+	color: #666;
+}
+.Japan-comic-detail ul li.active a {
+	color: #cd2b00;
+}
+.Japan-comic-list>.Japan-page-tab {
+	margin-top: 15px;
+}
+/*更新预告*/
+.Japan-update, .Japan-activity {
+	width: 426px;
+}
+.Japan-update .Japan-update-header p,  .Japan-activity .Japan-activity-header p{
+	float: right;
+	width: 320px;
+	height: 25px;
+	margin-top: 5px;
+	/* background: url(../images/all10.png); */
+}
+.Japan-update-header p span {
+	display: block;
+	float: left;
+	width: 285px;
+	height: 18px;
+	margin-left: 8px;
+	margin-top: 3px;
+	background: #fff;
+}
+.Japan-update-header p a {
+	display:none;
+	float: right;
+	width: 17px;
+	height: 17px;
+	margin-top: 4px;
+	margin-right: 6px;
+	/* background: url(../images/japan_all.png) no-repeat -363px -52px; */
+}
+.Japan-update .Japan-update-content {
+	position: relative;
+	height: 328px;
+	margin-top: 30px;
+	border: 1px solid #3d3d3d;
+	background: #fff;
+}
+.Japan-update-content sup {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 94px;
+	height: 48px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -361px; */
+}
+.Japan-update-content dl dt {
+	float: left;
+	width: 43px;
+	height: 78px;
+	border-bottom: 1px solid #363636;
+	line-height: 69px;
+	text-align: center;
+	color: #fff;
+	background: #404040;
+}
+.Japan-update-content dl dt.Japan-week-update {
+	height: 170px;
+	line-height: 170px;
+}
+.Japan-update-content dl dt h4 {
+	display: inline-block;
+	width: 1em;
+	margin: 10px auto 0;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 120%;
+	text-align: center;
+	vertical-align: middle;
+}
+.Japan-update-content dl dt.Japan-week-update h4 {
+	*margin-top: 75px;
+}
+.Japan-update-content dl dt.Japan-month-update{
+	height:118px;
+	margin-top:-41px;
+}
+.Japan-update-content dl dt.Japan-month-update h4 {
+	*margin-top: 20px;
+}
+.Japan-update-content .ft-fk{
+	margin-left:24px;
+	font-style:oblique;
+	color:#bcbcbc;
+}
+.Japan-update-content dl dd {
+	float: left;
+	width: 381px;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 1em;
+	*text-indent: 3px;
+	letter-spacing: -0.5px;
+	color: #404040;
+	background: #f0f0f0;
+}
+.Japan-update-content dl dd.Japan-update-item {
+	line-height: 45px;
+	letter-spacing: 0;
+	color: #404040;
+	background: #fff;
+}
+.Japan-update-content dl dd a {
+	color: #404040;
+	text-decoration: underline;
+}
+.Japan-update-content dl dd.Japan-update-item a {
+	color: #404040;
+	text-decoration: none;
+	letter-spacing:-0.6px;
+	*letter-spacing:-1px;
+}
+.Japan-update-content dl dd ul {
+	margin-top: 5px;
+	width:412px;
+}
+.Japan-update-content dl dd li {
+	float: left;
+	width: 206px;
+	overflow: hidden;
+	line-height: 31px;
+}
+.Japan-small-ad{
+	width: 426px;
+	height: 90px;
+	margin-top: 25px;
+	background: #333;
+	overflow: hidden;
+	position:relative;
+}
+.Japan-update .Japan-activity {
+	margin-top: 28px;
+}
+.Japan-activity-con{
+	border: 2px solid #393939;
+	margin-top:25px;
+}
+.Japan-update .Japan-activity ul.Japan-activity-list {
+	width: 422px;
+	height: 432px;
+	/*margin-top: 25px;*/
+	overflow:hidden;
+}
+.Japan-update .Japan-activity .Japan-activity-content {
+	position: relative;
+	height: 70px;
+	*height: 68px;
+	border-bottom: 2px solid #393939;
+	line-height: 70px;
+	background: #fff;
+}
+.Japan-activity .Japan-activity-content  .japan-activeity-a{
+	display: inline-block;
+	width: 385px;
+	height: 50px;
+	*margin-top: 11px;
+	padding-left: 1em;
+	font: 16px/24px "Microsoft YaHei";
+	vertical-align: middle;
+	color: #404040;
+}
+.Japan-activity .Japan-activity-content .japan-activity-info{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	line-height: 40px;
+	color: #404040;
+}
+.Japan-activity .Japan-acitivity-join {
+	position: relative;
+	height: 360px;
+
+}
+.Japan-activity .Japan-acitivity-join .bg-comic {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 235px;
+	height: 360px;
+}
+.Japan-activity .Japan-acitivity-join h4 {
+	height: 35px;
+	line-height: 35px;
+	text-indent: 20px;
+	background: #f0f0f0;
+}
+.Japan-activity .marquee{
+	height:216px;
+	position:relative;
+	display:block;
+	overflow:hidden;
+	margin: 15px 20px 15px;
+}
+.Japan-activity .marquee ul{
+	height:432px;
+}
+
+.Japan-activity .Japan-acitivity-join li {
+	position: relative;
+	line-height: 36px;
+	color: #333;
+	z-index: 10;
+}
+.Japan-activity .Japan-acitivity-join li span {
+	color: #ff0000;
+	/*text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 2px #fff;*/
+}
+.Japan-activity .Japan-acitivity-join a {
+	display: block;
+	position: relative;
+	width: 255px;
+	height: 55px;
+	margin-left: 18px;
+	border: 3px solid #901e00;
+	font: 18px/55px "Microsoft YaHei";
+	text-align: center;
+	color: #fff;
+	background: #cd2b00;
+	z-index: 10;
+}
+.Japan-activity .Japan-acitivity-join a:hover {
+	color: #fff !important;
+	background: #ed3c11;
+}
+.Japan-ad-banner {
+	width: 1200px;
+	height: 90px;
+	margin-top: 30px;
+	background: #333;
+	overflow:hidden;
+	position:relative;
+}
+
+/*漫评资讯*/
+.Japan-comment .Japan-bx-head {
+	margin-top: 15px;
+}
+.Japan-comment .Japan-bx-head h3 {
+	/* background: url(../images/japan_all.png) no-repeat -45px -541px; */
+}
+.Japan-comment .Japan-bx-head a {
+	float: right;
+	font-size: 14px;
+	line-height: 65px;
+	color: #333;
+}
+.Japan-comment-wrap {
+	float: left;
+	position: relative;
+	width:670px;
+	height:1459px;
+	overflow: hidden;
+}
+.Japan-info-head {
+	width: 670px;
+	margin-top: 25px;
+}
+.Japan-comment-wrap .Japan-comment-list {
+	width: 670px;
+	height:1364px;
+	overflow:hidden;
+}
+.Japan-comment-wrap .japan-bbn{
+	padding: 22px 0;
+	border-bottom: 1px dashed #999;
+	zoom:1;
+}
+.Japan-comment-wrap .japan-bbn:after{
+	content:"."; display:block; height:0; clear:both; visibility:hidden;
+}
+.Japan-comment-list .Japan-comment-pic {
+	float: left;
+	/* background:#f8f8f8 url(../images/bg_jump_logo.png) no-repeat 50%; */
+	width:210px;
+	height:150px;
+	display:block;
+	overflow:hidden;
+	position: relative;
+}
+.Japan-comment-list .Japan-comment-pic sup {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 55px;
+	height: 55px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -196px; */
+}
+.Japan-comment-list .Japan-comment-pic sup.spread {
+	/* background: url(../images/japan_all.png) no-repeat -45px -253px; */
+}
+.Japan-comment-list .Japan-comment-pic img {
+	display: block;
+}
+.Japan-comment-list .Japan-comment-content {
+	float: left;
+	position: relative;
+	width: 440px;
+	height: 150px;
+	padding-left: 20px;
+}
+.Japan-comment-list .Japan-comment-content>a:hover h4,
+.Japan-comment-list .Japan-comment-content>a:hover p {
+	color: #cd2b00;
+}
+.Japan-comment-list .Japan-comment-content>a {
+	display: block;
+}
+.Japan-comment-list .Japan-comment-content>a h4 {
+	font: 20px "Microsoft YaHei";
+	color: #333;
+}
+.Japan-comment-list .Japan-comment-content .japan-ft-info{
+	height: 65px;
+	margin-top: 15px;
+	padding-right: 10px;
+	font-size: 14px;
+	line-height: 160%;
+	color: #333;
+	overflow : hidden;
+}
+.Japan-comment-content p.Japan-comment-tag {
+	position: absolute;
+	bottom: 0;
+	line-height: 30px;
+}
+.Japan-comment-content p.Japan-comment-tag span,
+.Japan-comment-content p.Japan-comment-tag a {
+	color: #999;
+}
+.Japan-comment-content p.Japan-comment-tag a {
+	margin-left: 10px;
+}
+.Japan-comment-wrap .Japan-page-wrap {
+	width: 670px;
+}
+.Japan-mid-bg {
+	float: left;
+	width: 44px;
+	height: 1405px;
+	/* background: url(../images/japan_all.png) no-repeat; */
+	margin-left: 30px;
+	margin-top: 50px;
+}
+.Japan-gossip {
+	float: right;
+	width: 425px;
+	height: 1405px;
+	margin-top: 35px;
+}
+.Japan-gossip-header .tit{
+	border-bottom: 3px solid #353535;
+}
+.tit{
+	font: 24px/32px "Microsoft YaHei";
+	color: #333;
+}
+.Japan-gossip-header .tit:hover{
+	color:#333;
+}
+.tit:hover{
+	color:#fff;
+}
+.Japan-gossip-header p {
+	float: left;
+	position: relative;
+	width: 329px;
+	height: 35px;
+}
+.Japan-gossip-header p span {
+	float: left;
+	display: block;
+	width: 195px;
+	height: 18px;
+	margin-left: 23px;
+	margin-top: 6px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -562px; */
+}
+.Japan-gossip-header p a {
+	float: right;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #333;
+}
+.Japan-gossip-header p sub {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 330px;
+	height: 3px;
+	/* background: url(../images/all10.png); */
+}
+.Japan-gossip-list ul{
+	width:452px;
+	zoom:1;
+	margin:17px 0 0 -13px;
+}
+.Japan-gossip-list ul:after{
+	content:"."; display:block; height:0; clear:both; visibility:hidden;
+}
+.Japan-gossip-list ul li {
+	float: left;
+	width: 200px;
+	padding:10px 13px;
+}
+.Japan-gossip-list ul a {
+	display: block;
+}
+.Japan-gossip-list .Japan-gossip-pic {
+	position: relative;
+	background: #000;
+}
+.Japan-gossip-list .Japan-gossip-pic img {
+	width: 100%;
+}
+
+/*.Japan-gossip-list .Japan-gossip-pic:hover img {
+	filter:alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-ms-opacity: 0.9;
+	opacity: 0.9;
+}*/
+.Japan-gossip-pic .Japan-gossip-mask {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background: #000;
+	filter:alpha(opacity=45);
+	-moz-opacity: 0.45;
+	-ms-opacity: 0.45;
+	opacity: 0.45;
+}
+.Japan-gossip-list .Japan-gossip-pic p {
+	position: absolute;
+	right: 6px;
+	bottom: 0;
+	line-height: 30px;
+	color: #fff;
+}
+.Japan-gossip-list .Japan-gossip-title {
+	height: 30px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+.Japan-gossip-box {
+	position: relative;
+	width: 424px;
+	margin-top: 30px;
+	border: 1px solid #3e3e3e;
+	background: #fff;
+}
+.Japan-gossip-box .japan-cast-link{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 96px;
+	height: 49px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -310px; */
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.Japan-gosbox-header {
+	height: 46px;
+	background: #3e3e3e;
+}
+.Japan-gosbox-header .tit {
+	float: left;
+	line-height: 46px;
+	text-indent: 10px;
+	color: #fff;
+}
+.Japan-gosbox-header p {
+	float: left;
+	width: 200px;
+	height: 17px;
+	margin-top: 15px;
+	/* background: url(../images/japan_all.png) no-repeat -45px -602px; */
+}
+.Japan-world .Japan-gosbox-header p{
+	/* background: url(../images/japan_all.png) no-repeat -45px -831px; */
+}
+.Japan-gosbox-header a {
+	display: block;
+	float: right;
+	margin-right: 15px;
+	line-height: 46px;
+	color: #fafafa;
+}
+.Japan-gossip-list{
+	min-height:375px;
+}
+.Japan-gossip-box ul li {
+	width: 395px;
+	height: 103px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-bottom: 1px dashed #999;
+}
+.Japan-gossip-box ul li.border-none{
+	border:0 none;
+}
+.Japan-gossip-box ul li img{
+	background:#000;
+}
+.Japan-world  ul li {
+	height: 145px;
+}
+.Japan-world ul li img {
+	max-width: 180px;
+}
+.Japan-gossip-box ul li h4 a,
+.Japan-gossip-box ul li p a {
+	width: 290px;
+	overflow: hidden;
+	color: #333;
+}
+.Japan-gossip-box ul li h4 a {
+	font-size: 14px;
+	font-weight: bold;
+}
+.Japan-gossip-box ul li p a {
+	float: left;
+	overflow: hidden;
+	line-height: 20px;
+}
+.Japan-gossip-box ul li h4 {
+	float: left;
+	margin-bottom: 5px;
+}
+.Japan-world ul li h4,
+.Japan-world ul li p a {
+	width: 195px;
+}
+.Japan-world ul li h4 a {
+	width: 140px;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+.Japan-world ul li h4 strong {
+	font-size:14px;
+	color: #c92900;
+}
+.Japan-world ul li p{
+	float:left;
+	height: 95px;
+}
+.Japan-world ul li p a.world-a{
+	height:auto;
+}
+.mod-footer-wr {
+	margin-top: 50px;
+}
+.Japan-body .mod-footer-wr a:hover {
+	color: #fff !important;
+}
+.Japan-body .mod-footer-main .mod-footer-info,
+.Japan-body .mod-footer-main .mod-footer-info a {
+	margin-right: 3px;
+}
+.Japan-body .mod-footer-main .mod-footer-info {
+	position: relative;
+	z-index: 10;
+}
+.Japan-body .foot-info-a:hover .Japan-copyright{
+	display:block;
+	cursor:text;
+}
+.Japan-body .Japan-copyright {
+	position: absolute;
+	right: -32px;
+	bottom: 16px;
+	z-index: 10;
+	padding-bottom:12px;
+	display:none;
+}
+.Japan-body .Japan-copyright ul {
+	padding: 15px;
+	border-radius: 3px;
+	background: #fff;
+	-moz-box-shadow: 0px 1px 6px rgba(102, 102, 102, 0.22);
+	-webkit-box-shadow: 0px 1px 6px rgba(102, 102, 102, 0.22);
+	box-shadow: 0px 1px 6px rgba(102, 102, 102, 0.22);
+}
+.Japan-body .Japan-copyright ul li {
+	width: 400px;
+	border: 1px solid #969696;
+	border-top: none;
+	text-align: left;
+	text-indent: 5px;
+	color: #000;
+}
+.Japan-body .Japan-copyright i {
+	left: 244px;
+}
+.Japan-body .Japan-copyright ul .Japan-copyright-first {
+	border-top: 1px solid #969696;
+}
+
+.japan-img-sy{
+	float:left;
+	width:84px;
+	height:84px;
+}
+.japan-img{
+	background:#000;
+	position:relative;
+	display:block;
+	margin-right:15px;
+}
+.japan-img-word{
+	float:left;
+	width:178px;
+	height:124px;
+}
+.mod-layer-mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.1s ease;
+    -moz-transition: opacity 0.1s ease;
+    -o-transition: opacity 0.1s ease;
+    transition: opacity 0.1s ease;
+}
+.Japan-comment-list .Japan-comment-pic:hover .mod-layer-mask,
+.japan-img:hover .mod-layer-mask,
+.Japan-gossip-pic:hover .mod-layer-mask,
+.Japan-comic-title:hover .mod-layer-mask,
+.new-img:hover .mod-layer-mask{
+	opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.Japan-activity-header{
+	position:relative;
+	z-index:1;
+}
+.Japan-activity-con{
+	line-height:18px;
+	position:relative;
+}
+.Japan-activity-con .bx-viewport{
+	z-index:2;
+}
+.Japan-activity-con .bx-has-pager{
+	position:absolute;
+	bottom:15px;
+	right:5px;
+	z-index:10;
+}
+.Japan-activity-con .bx-has-pager .bx-pager-item{
+	float:left;
+	margin-right:5px;
+}
+.Japan-activity-con .bx-has-pager .bx-pager-item a{
+	background:#fff;
+	width:16px;
+	height:6px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.Japan-activity-con .bx-has-pager .bx-pager-item .active{
+	background:#484848;
+}
+.mod-slider .bx-pager{
+	bottom:12px;
+	right:8px;
+}
+.mod-slider .bx-pager-item{
+	margin-right:5px;
+}
+.mod-slider .bx-pager-item a{
+	width:16px;
+	height:6px;
+	border-radius:0;
+}
+.top-border{
+    width: 100%;
+    height: 16px;
+    margin-top: -4px;
+    background: url(../public/page_rank_sprite.png) repeat-x;
+}
+.position{
+	height:1px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	top:100px;
+	left:0;
+}
+
+.Japan-small-ad .bx-wrapper{
+	position:relative;
+	z-index:1;
+}
+.japan-pager{
+	position:absolute;
+	bottom:12px;
+	right:8px;
+	z-index:50;
+}
+.japan-pager-item{
+	float:left;
+	background:#fff;
+	width:16px;
+	height:6px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+	margin-right:5px;
+}
+.japan-pager-item.current{
+	background:#484848;
+}

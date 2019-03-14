@@ -1,0 +1,481 @@
+/* 动画 动画  */
+.top-border {
+  width: 100%;
+ display:none;
+  margin-top: -4px;
+}
+.top-border{
+    background:url();
+}
+td, th, ul, ol, li {
+    padding: 0;
+    list-style-type: none;
+  }
+  .top_wrap {
+    background: url(../../public/head_wrap.jpg) no-repeat center 56px;
+
+  }
+  .top_con {
+    background: url(../../public/head_con.jpg) no-repeat center top;
+    height: 500px;
+  }
+  .mid {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+  }
+  .hide {
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+  }
+  .logo {
+    width: 130px;
+    height: 120px;
+  }
+  .t {
+    text-indent: -999em;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .con1 {
+    background: url(../../public/con1.jpg) no-repeat center top;
+    height: 1215px;
+  }
+  .hot_wrap {
+    padding-top: 245px;
+  }
+  
+  .hot_links {
+    background: url(../../public/hot_links_bg.png) no-repeat center top;
+    height: 105px;
+    padding: 18px 0 0;
+    margin-bottom: 30px;
+  }
+  .hot_links li {
+    z-index: 1;
+    position: relative;
+    float: left;
+    border-left: 1px solid #2f628c;
+    padding: 6px 21px;
+    margin-left: -1px;
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+  .links_a {
+    color: #c2eeff;
+    background-position: -305px 3px;
+    padding-left: 22px;
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+  }
+  a{
+    text-decoration: none;
+  }
+  .links_a, .links_info {
+    background: url(../../public/links_sprite.png) no-repeat -305px 3px;
+  }
+  .links_a:hover{
+    color:#d59348;
+    background-position: -305px -38px;
+  }
+  /* .links_a:hover+.links_info {
+    color:#d59348;
+    display:block;
+    position: absolute;
+    width: 214px;
+    padding: 27px 15px 0;
+    height: 162px;
+    top: 26px;
+    left: 50%;
+    margin-left: -122px;
+    background: url(../../public/links_sprite.png) no-repeat -305px 3px;
+  } */
+ 
+ 
+  .links_info {
+    display: none;
+    position: absolute;
+    width: 214px;
+    padding: 27px 15px 0;
+    height: 162px;
+    top: 26px;
+    left: 50%;
+    margin-left: -122px;
+
+  }
+  .links_pic {
+    width: 210px;
+    height: 118px;
+    overflow: hidden;
+    display: block;
+    border: 2px solid #0d375f;
+    position: relative;
+  }
+  
+  .links_text {
+    font-weight: bold;
+    color: #c2eeff;
+    padding-top: 5px;
+  }
+  body p, body span, body a, body strong, body i {
+    font-family: '\5FAE\8F6F\96C5\9ED1';
+  }
+  img {
+    border: 0;
+    display: block;
+    /* width: 210px;
+    height: 118px; */
+  }
+  .links_video_cov {
+    position: absolute;
+    width: 210px;
+    height: 118px;
+    background: url(../../public/links_video_cover.png) no-repeat center center;
+    left: 0;
+    top: 0;
+  }
+  .hot_list .lar {
+    margin-right: 28px;
+  }
+  .hot_list li {
+    float: left;
+    width: 314px;
+    position: relative;
+  }
+  .hot_list .lar a {
+    display: block;
+    background: url(../../public/lar_bor.png) no-repeat;
+    width: 314px;
+    height: 505px;
+    overflow: hidden;
+  }
+ 
+  .hot_list .lar a img {
+    margin: 7px auto 0;
+    opacity: .8;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+  }
+  .hot_list li img {
+    border: 1px solid #c2eeff;
+  }
+  .hot_list .txt_box {
+    width: 298px;
+    position: absolute;
+    top: 388px;
+    left: 8px;
+    background: rgba(0,0,0,.8);
+    height: 108px;
+  }
+  .hot_list .txt_box .txt_tit {
+    height: 30px;
+    line-height: 24px;
+    padding-left: 24px;
+    padding-top: 25px;
+  }
+  .hot_list .txt_box .txt_tit strong {
+    font-size: 24px;
+    color: #c2eeff;
+    margin-right: 10px;
+  }
+  .fl {
+    float: left;
+  }
+  .hot_list .txt_box .txt_tit .sm_btn {
+    display: block;
+    width: 90px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 14px;
+    color: #061422;
+    text-align: center;
+    background: #ffb74a;
+    border-radius: 4px;
+  }
+  .hot_list .txt_box .txt_deta {
+    font-size: 14px;
+    color: #688390;
+    padding: 10px 0 0 24px;
+  }
+  body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,'\5b8b\4f53',sans-serif;
+  }
+  
+.hot_list .sml a {
+  display: block;
+  background: url(../../public/sm_bor.png) no-repeat;
+  width: 314px;
+  height: 235px;
+  overflow: hidden;
+}
+.hot_list .sml a img {
+  margin: 7px auto 0;
+  opacity: .8;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+.hot_list li img {
+  border: 1px solid #c2eeff;
+}
+img {
+  border: 0;
+  display: block;
+}
+
+.hot_list .sml .sm_box01 {
+  margin-top: 32px;
+}
+
+
+.hot_list li.sml_01 {
+  width: 1026px;
+  padding-top: 30px;
+}
+
+.hot_list li {
+  float: left;
+  width: 314px;
+  position: relative;
+}
+
+.fl {
+  float: left;
+}
+.hot_list li.sml_01 .sm_box02 {
+  margin-right: 0;
+}
+.hot_list li.sml_01 .sm_box {
+  margin-right: 28px;
+}
+.hot_list .sml .sm_box {
+  width: 314px;
+  position: relative;
+}
+.fl {
+  float: left;
+}
+.hot_list .sml .txt_box {
+  width: 298px;
+  position: absolute;
+  top: 182px;
+  left: 8px;
+  background: rgba(0,0,0,.8);
+  height: 45px;
+}
+.hot_list .sml .txt_box .txt_tit {
+  height: 22px;
+  line-height: 20px;
+  padding-left: 17px;
+  padding-top: 12px;
+}
+.hot_list .sml .txt_box .txt_tit strong {
+  font-size: 14px;
+  color: #c2eeff;
+  margin-right: 7px;
+}
+.hot_list .sml .txt_box .txt_tit .sm_btn {
+  display: block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #061422;
+  text-align: center;
+  background: #ffb74a;
+  border-radius: 2px;
+}
+
+
+/* con2 */
+.con2 {
+  background: url(../../public/con2.jpg) no-repeat center top;
+  height: 600px;
+  overflow: hidden;
+}
+.mid {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+.my_tab {
+  width: 990px;
+  margin: 183px auto 0;
+  text-align: center;
+}
+.my_tab .date_tit {
+  height: 51px;
+  line-height: 51px;
+  font-size: 24px;
+  color: #c2eeff;
+}
+.date_tit strong {
+  width: 198px;
+  float: left;
+  font-size: 24px;
+}
+.wrap_box {
+  width: 198px;
+}
+td, th, ul, ol, li {
+  padding: 0;
+  list-style-type: none;
+}
+.my_tab .dj_box {
+  width: 190px;
+  position: relative;
+  border: 1px solid rgba(6,20,34,.1);
+  overflow: hidden;
+  padding: 14px 0 14px 6px;
+}
+.my_tab .dj_box a {
+  display: block;
+  width: 174px;
+}
+.my_tab .dj_box img {
+  float: left;
+  width: 60px;
+}
+img {
+  border: 0;
+  display: block;
+}
+.my_tab .dj_box .dj_tit {
+  width: 94px;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #c2eeff;
+  text-align: left;
+}
+em, b {
+  font-style: normal;
+}
+.my_tab .dj_box .dj_name {
+  width: 105px;
+  font-size: 12px;
+  color: #688390;
+  line-height: 14px;
+  padding: 5px 0 0 8px;
+  text-align: left;
+}
+.my_tab .line {
+  width: 174px;
+  border-bottom: 1px dashed #0e2b51;
+  height: 12px;
+  position: absolute;
+  top: 65px;
+  left: 0px;
+}
+.my_tab .date_tit {
+  height: 51px;
+  line-height: 51px;
+  font-size: 24px;
+  color: #c2eeff;
+}
+em {
+  font-style: normal;
+  font-size: 13px;
+}
+.wrap_box02 {
+  width: 188px;
+}
+
+/* con */
+.con3 {
+  background: url(https://ac.gtimg.com/comic/images/2016/txanime/pc/images/con3.jpg) no-repeat center top;
+  height: 903px;
+}
+.tab {
+  position: relative;
+  padding-top: 175px;
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tab_list {
+  width: 832px;
+  overflow: hidden;
+  margin-left: 102px;
+  position: relative;
+}
+.tab .tab_left {
+  background-position: 0 0;
+  left: 0;
+}
+.tab .tab_right {
+  background-position: -33px 0;
+  right: 0;
+}
+.tab .tab_left, .tab .tab_right {
+  width: 25px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  top: 500px;
+}
+.tab .tabImg {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.tab ul {
+  width: 832px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  float: left;
+}
+.tab ul li {
+  float: left;
+  width: 176px;
+  margin-right: 32px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.tab ul li a {
+  display: block;
+  background: url(https://ac.gtimg.com/comic/images/2016/txanime/pc/images/slide_bor.png) no-repeat;
+  width: 176px;
+  height: 301px;
+  overflow: hidden;
+}
+.tab ul li a img {
+  display: block;
+  margin: 5px auto 0;
+  opacity: .8;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+}
+.tab ul li .slide_info {
+  width: 166px;
+  position: absolute;
+  top: 226px;
+  left: 5px;
+  height: 69px;
+  background: rgba(0,0,0,.8);
+}
+.tab ul li .slide_info .info01 {
+  font-size: 18px;
+  color: #c2eeff;
+  padding-left: 7px;
+  padding-top: 10px;
+}
+.tab ul li .slide_info .info02 {
+  font-size: 12px;
+  color: #688390;
+  padding: 4px 0 0 7px;
+}
+strong, b {
+  font-weight: bold;
+}
+.tab ul li .slide_info .info01 {
+  font-size: 18px;
+  color: #c2eeff;
+  padding-left: 7px;
+  padding-top: 10px;
+}

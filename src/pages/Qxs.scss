@@ -1,0 +1,28 @@
+div.bx-wrapper {
+    max-width: 9000px;
+    div.bx-viewport {
+        width: 100%; overflow: hidden; position: relative; height: 552px;
+        ul.update-list{
+            width: auto; position: relative;
+            li {
+                float: none; 
+                list-style: none; 
+                position: absolute; 
+                width: 9000px; 
+                z-index: 50; 
+                display: none;
+            }
+            li.one {
+                display: block
+            }
+        }
+    }
+}
+a.cover-item {
+img {
+    width: 133px;
+    height: 177px;
+    display: block
+}
+
+}

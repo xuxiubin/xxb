@@ -1,0 +1,119 @@
+@charset"utf-8";
+@import "global.css";
+/***
+ * Author:Yellow
+ * Date:2012-02-05
+ * Description: 样式命名遵循匈牙利命名法,
+ *              例如:可复用模块化组件 mod_xxx
+ *                   首页模板 i_xxx
+ * 					 个人空间 h_xxx
+ *                   排行榜   r_xxx
+ *                   名家名作 f_xxx
+ *                   VIP专区  v_xxx   
+ * 
+ *  	        公共部分   global.css
+ *              首页       index.css
+ *  			个人空间   home.css
+ *              排行榜     rank.css
+ *              名家名作   famous.css
+ *              VIP专区    vip.css
+ *              IE兼容     ie.css
+ *  
+***/
+
+/******************** Index Top ********************/
+html {
+	/* background:#e8e9eb url(../images/night_index_bg.jpg) repeat-x left top; */
+}
+#index {
+	/* background:url(../images/night_bg.jpg) no-repeat center top; */
+}
+h1 {margin:12px 54px 0 5px;}
+.index_logo {
+	/* background:url(../images/night_logo.gif) no-repeat left top!important; */
+}
+
+.mod_menu a.top_weibo {padding:3px 0 4px 20px!important;margin:0 3px!important;
+	/* background:url(../images/icon_sprite.gif) no-repeat left -650px!important;  */
+}
+.mod_top_search {
+	/* background:url(../images/night_bg.gif) no-repeat -185px top; */
+}
+.mod_nav li a {height:68px;display:block;
+	/* background:url(../images/night.png) no-repeat; */
+	text-indent:-9999px;}
+
+.mod_top_cata strong {width:38px;height:20px;line-height:20px;display:inline-block;
+	background:#000100;color:#a5a9c2;}
+
+.mod_top_cata a {color:#a5a9c2;}
+.mod_top_cata a span {color:#a5a9c2;}
+.mod_top_cata a.showall {
+	/* background:url(../public/night.png) no-repeat -406px top; */
+}
+.mod_top_cata_wr {width:960px;height:240px;overflow:hidden;position:absolute;z-index:120;top:126px;display:none;}
+.mod_960wr {width:960px;margin-right:165px;margin-left:auto;}
+.mod_top_cata_mask {
+	background:#161616;
+	width: 960px; 
+	height: 240px; 
+	opacity: .9; 
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	position:absolute;
+	z-index:101;
+}
+.mod_top_cata_list {position:absolute;z-index:102;padding:10px 30px;}
+.mod_top_cata_txt {height:32px;line-height:32px;}
+.mod_top_cata_txt strong {width:40px;height:20px;line-height:20px;text-align:center;background:#444755;color:#a7aac2;display:inline-block;zoom:1;}
+.mod_top_cata_txt a {color:#a7aac2;margin:0 2px;padding:3px;}
+.mod_top_cata_txt a:hover {color:white;background:#4c7b16;}
+
+.in_top_banner .mod_book_list li {width:184px;height:232px;float:left;
+	/* background:url(../public/night.png) no-repeat left -266px; */
+}
+.in_top_banner .prev,.in_top_banner .next {width:21px;height:32px;display:block;text-indent:-9999px;overflow:hidden;position:absolute;}
+.in_top_banner .prev {
+	/* background:url(../public/night.png) no-repeat 1px -534px;left:0px;top:96px; */
+}
+.in_top_banner .next {
+	/* background:url(../public/night.png) no-repeat -20px -534px;right:0;top:96px; */
+}
+.in_top_banner .pagination {width:80px;height:17px;overflow:hidden;margin:0 auto 10px;text-align:center;}
+.in_top_banner .pagination li {width:17px;height:17px;float:left;}
+.in_top_banner .pagination li a {width:17px;height:17px;float:left;
+	/* background:url(../public/night.png) no-repeat -21px -507px; */
+	display:block;text-indent:-9999px;overflow:hidden;}
+.in_top_banner .pagination .current a {
+	/* background:url(../public/night.png) no-repeat left -507px; */
+}
+
+/******************** Sub Top ********************/
+#sub {
+	/* background:#e8e9eb url(../public/night_sub_bg.jpg) no-repeat center top; */
+}
+
+/******************** Home Top ********************/
+#home {
+	background:url(../public/home_bg.jpg) repeat left top;
+}
+.home_container {
+	background:url(../public/home_night_bg.jpg) no-repeat center 52px;
+}
+
+/******************** VIP Top Banner ********************/
+.v_top_banner {
+	/* background:url(../images/v_top_banner_bg.jpg) no-repeat left -270px; */
+}
+
+/********************  适应新版头部 ****************/
+.top-nav-head .top-nav-logo{width: 130px!important;height: 52px!important;margin: 0!important;}
+.top-nav-head .top-nav-logo a{}
+
+
+
+
+
+

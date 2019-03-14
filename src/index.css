@@ -1,0 +1,44 @@
+
+.welfare-guide-top-wr {
+  position: absolute;
+  bottom: -85px;
+  *bottom: -31px;
+  left: 339px;
+  width: 403px;
+  height: 211px;
+  z-index: 20;
+  cursor: default;
+  /* background: url("//ac.gtimg.com/media/images/guide_index_welfare_top.png"); */
+}
+
+.welfare-guide-top-wr .welfare-btn,
+.welfare-guide-top-wr .close-btn {
+  padding-left: 0;
+}
+
+.welfare-guide-top-wr .welfare-btn:hover,
+.welfare-guide-top-wr .close-btn:hover {
+  background: none !important;
+}
+
+.welfare-guide-top-wr .welfare-btn {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 80px;
+  height: 60px;
+}
+
+.welfare-guide-top-wr .close-btn {
+  display: block;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+  width: 100px;
+  height: 60px;
+}
+
+.btn-tps{
+  background: url(../public/store_file_download.gif)
+}
